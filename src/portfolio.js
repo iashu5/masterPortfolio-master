@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Ashutosh Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
@@ -61,7 +61,7 @@ const socialMediaLinks = [
 
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/iashu5",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -90,13 +90,7 @@ const skills = {
       ],
 
       softwareSkills: [
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
+        
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -109,6 +103,13 @@ const skills = {
           fontAwesomeClassname: "simple-icons:sass",
           style: {
             color: "#CC6699",
+          },
+        },
+        {
+          skillName: "ReactTS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
           },
         },
         {
@@ -125,6 +126,13 @@ const skills = {
             color: "#2C8EBB",
           },
         },
+        {
+          skillName: "VsCode",
+          fontAwesomeClassname: "skill-icons:vscode-light",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
       ],
     },
     {
@@ -137,8 +145,7 @@ const skills = {
 
         "⚡ Experience with databases like MySQL",
 
-        "⚡ Proficient in using CI/CD tools like GitLab CI, and Docker for continuous integration and deployment",
-        "⚡ Building scalable microservices architectures with Spring Cloud and Docker for containerization",
+        "⚡ Experienced in using PuTTY and WinSCP for deployment on live servers.",
 
         "⚡ Expertise in version control systems such as Git, GitHub, and GitLab",
         "⚡ Knowledge of Agile methodologies and experience working in Agile Scrum teams",
@@ -177,51 +184,39 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "ReactTS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
         },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Java",
+          fontAwesomeClassname: "logos-java",
+          style: {
+            color: "#339933",
+          },
+        },
+        
+        {
+          skillName: "Spring",
+          fontAwesomeClassname: "skill-icons:spring-light",
           style: {
             color: "#CB3837",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "MySQL",
+          fontAwesomeClassname: "skill-icons:mysql-light",
           style: {
-            color: "#2C8EBB",
+            color: "#CB3837",
           },
         },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
+       
       ],
     },
     // {
-    //   title: "Cloud Infra-Architecture",
+    //   title: "Tools Used",
     //   fileName: "CloudInfraImg",
     //   skills: [
     //     "⚡ Experience working on multiple cloud platforms",
@@ -287,7 +282,7 @@ const skills = {
     //       },
     //     },
     // ],
-    //},
+    // },
     // {
     //   title: "UI/UX Design",
     //   fileName: "DesignImg",
@@ -333,14 +328,7 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    // {
-    //   siteName: "LeetCode",
-    //   iconifyClassname: "simple-icons:leetcode",
-    //   style: {
-    //     color: "#F79F1B",
-    //   },
-    //   profileLink: "https://leetcode.com/layman_brother/",
-    // },
+    
     {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
@@ -349,38 +337,7 @@ const competitiveSites = {
       },
       profileLink: "https://www.hackerrank.com/profile/akashutosh9122",
     },
-    // {
-    //   siteName: "Codechef",
-    //   iconifyClassname: "simple-icons:codechef",
-    //   style: {
-    //     color: "#5B4638",
-    //   },
-    //   profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    // },
-    // {
-    //   siteName: "Codeforces",
-    //   iconifyClassname: "simple-icons:codeforces",
-    //   style: {
-    //     color: "#1F8ACB",
-    //   },
-    //   profileLink: "http://codeforces.com/profile/layman_brother",
-    // },
-    // {
-    //   siteName: "Hackerearth",
-    //   iconifyClassname: "simple-icons:hackerearth",
-    //   style: {
-    //     color: "#323754",
-    //   },
-    //   profileLink: "https://www.hackerearth.com/@ashutosh391",
-    // },
-    // {
-    //   siteName: "Kaggle",
-    //   iconifyClassname: "simple-icons:kaggle",
-    //   style: {
-    //     color: "#20BEFF",
-    //   },
-    //   profileLink: "https://www.kaggle.com/laymanbrother",
-    // },
+    
   ],
 };
 
@@ -393,9 +350,11 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2024 - 2026",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Developed skills in database design, normalization, and optimization techniques.",
+        "⚡ Explored complex networking concepts, including network architecture and protocols.",
+        "⚡ Implemented and configured various networking devices to simulate real-world scenarios.",
+        "⚡ Learned essential cryptographic techniques and their applications in securing data.",
+        "⚡ Integrated front-end and back-end technologies to create dynamic user experiences.",
       ],
       website_link: "https://www.cuchd.in/",
     },
@@ -458,87 +417,16 @@ const certifications = {
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
+    
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Internship",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with startups companies, specializing in full-stack development using React, TypeScript,Java Spring Boot and Mysql. I am also passionate about open-source contributions and organizing community events.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -569,7 +457,7 @@ const experience = {
           duration: "Aug 2024 - Present",
           location: "Shivajinagar Pune, INDIA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Developed an online education platform using Java Spring Boot for the backend, MySQL for database management, and React for the frontend, enabling users to purchase and access various courses. Integrated APIs for seamless data communication between the frontend and backend.",
           color: "#000000",
         },
         {
@@ -580,21 +468,9 @@ const experience = {
           duration: "Aug 2023 - Jan 2024",
           location: "Chinchwad Pune, INDIA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "I developed a fundraising platform using React for the frontend, ensuring responsive UI and smooth user experience. I collaborated with the backend team, integrating Python APIs and MySQL databases to manage data flow and user interactions. My role included designing UI components, binding APIs, and optimizing performance.",
           color: "#000000",
         },
-        // {
-        //   title: "Data Science Research Intern",
-        //   company: "Delhivery Pvt. Ltd.",
-        //   company_url: "https://www.delhivery.com/",
-        //   logo_path: "delhivery_logo.png",
-        //   duration: "May 2019 - Sept 2019",
-        //   location: "Gurgaon, Haryana",
-        //   description:
-        //     "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-        //   color: "#ee3c26",
-        // },
-        //
       ],
     },
   ],
@@ -604,55 +480,25 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects leverage a wide range of modern technologies. My primary focus has been on building web applications using Java Spring and Spring Boot for the backend, combined with HTML, CSS, and JavaScript frameworks like React for the frontend.",
   avatar_image_path: "projects_image.svg",
 };
 
-// const publicationsHeader = {
-//   title: "Publications",
-//   description: "Some of my published Articles, Blogs and Research.",
-//   avatar_image_path: "projects_image.svg",
-// };
 
-// const publications = {
-//   data: [
-//     {
-//       id: "neuro-symbolic-sudoku-solver",
-//       name: "Neuro-Symbolic Sudoku Solver",
-//       createdAt: "2023-07-02T00:00:00Z",
-//       description: "Paper published in KDD KiML 2023",
-//       url: "https://arxiv.org/abs/2307.00653",
-//     },
-//     {
-//       id: "mdp-diffusion",
-//       name: "MDP-Diffusion",
-//       createdAt: "2023-09-19T00:00:00Z",
-//       description: "Blog published in Paperspace",
-//       url: "https://blog.paperspace.com/mdp-diffusion/",
-//     },
-//     {
-//       id: "consistency-models",
-//       name: "Consistency Models",
-//       createdAt: "2023-10-12T00:00:00Z",
-//       description: "Blog published in Paperspace",
-//       url: "https://blog.paperspace.com/consistency-models/",
-//     },
-//   ],
-// };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "ashu.JPG",
+    profile_image_path: "ashuu.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Spring, React, Mysql.",
   },
   blogSection: {
-    // title: "Blogs",
+    
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    // link: "https://blogs.ashutoshhathidara.com/",
+   
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -664,7 +510,7 @@ const contactPageData = {
     postalCode: "831004",
     streetAddress: "Prakash Nagar",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/yG8CYv9cXRn33t6P6",
+    location_map_link: "https://maps.app.goo.gl/MYfymzDJgHbFYH1CA",
   },
   phoneSection: {
     title: "",
@@ -683,7 +529,6 @@ export {
   certifications,
   experience,
   projectsHeader,
-  // publicationsHeader,
-  // publications,
+  
   contactPageData,
 };

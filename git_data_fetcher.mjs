@@ -246,18 +246,17 @@ fetch(baseUrl, {
   .catch((error) => console.log(JSON.stringify(error)));
 
 const languages_icons = {
-  Python: "logos-python",
-  "Jupyter Notebook": "logos-jupyter",
+  
   HTML: "logos-html-5",
   CSS: "logos-css-3",
   JavaScript: "logos-javascript",
-  "C#": "logos-c-sharp",
+  
   Java: "logos-java",
-  Shell: "simple-icons:shell",
-  Ruby: "logos:ruby",
-  PHP: "logos-php",
+  VsCode:"skill-icons:vscode-light",
+  
   React: "skill-icons:react-dark",
-  Rust: "logos-rust",
+  MySQL:"skill-icons:mysql-light",
+  Spring:"skill-icons:spring-light",
 };
 
 fetch(baseUrl, {
