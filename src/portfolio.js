@@ -454,8 +454,8 @@ const experience = {
           company: "SevenMentor Pvt Ltd.",
           // company_url: "https://www.tiktok.com/en/",
           logo_path: "seven.webp",
-          duration: "Aug 2024 - Present",
-          location: "Shivajinagar Pune, INDIA",
+          duration: "Aug 2024 - March 2025",
+          location: "Pune, INDIA",
           description:
             "Developed an online education platform using Java Spring Boot for the backend, MySQL for database management, and React for the frontend, enabling users to purchase and access various courses. Integrated APIs for seamless data communication between the frontend and backend.",
           color: "#000000",
@@ -465,8 +465,8 @@ const experience = {
           company: "Medimaze Solutions Pvt Ltd.",
           //company_url: "https://www.tiktok.com/en/",
           logo_path: "medimaze.jpg",
-          duration: "Aug 2023 - Jan 2024",
-          location: "Chinchwad Pune, INDIA",
+          duration: "Aug 2023 - Feb 2024",
+          location: "Pune, INDIA",
           description:
             "I developed a fundraising platform using React for the frontend, ensuring responsive UI and smooth user experience. I collaborated with the backend team, integrating Python APIs and MySQL databases to manage data flow and user interactions. My role included designing UI components, binding APIs, and optimizing performance.",
           color: "#000000",
