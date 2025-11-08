@@ -43,13 +43,10 @@ class Experience extends Component {
             </div>
           </Fade>
         </div>
-        
+
         {/* Render only the Internships section */}
-        <ExperienceAccordion 
-          sections={experience.sections.filter(section => section.title === "Internships")} 
-          theme={theme} 
-        />
-        
+        <ExperienceAccordion sections={experience.sections} theme={theme} />
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
@@ -58,16 +55,6 @@ class Experience extends Component {
 }
 
 export default Experience;
-
-
-
-
-
-
-
-
-
-
 
 // class Experience extends Component {
 //   render() {

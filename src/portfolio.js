@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1_tfucq_jnnhwFTUpJ4dXjNWUXBdT4AfN/view?usp=sharing",
+    "https://drive.google.com/file/d/1pHKk-yrO2oFpohpAlcoB1fo-X9PXCwXy/view?usp=sharing",
   portfolio_repository: "https://ashucodes.netlify.app/",
   githubProfile: "https://github.com/iashu5",
 };
@@ -67,7 +67,7 @@ const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/i_ashu_5/",
+    link: "https://www.instagram.com/this.side.ashu/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -424,7 +424,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Internship",
+  subtitle: "Work & Internship",
   description:
     "I have worked with startups companies, specializing in full-stack development using React, TypeScript,Java Spring Boot and Mysql. I am also passionate about open-source contributions and organizing community events.",
   header_image_path: "experience.svg",
@@ -433,13 +433,14 @@ const experience = {
       title: "Work",
       work: true,
       experiences: [
-        {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+        
+         {
+          title: ".Net Developer",
+          company: "YSAAS Infotech Pvt Ltd..",
+          // company_url: "",
+          logo_path: "NoImg.jpg",
+          duration: "Nov 2024 - Present",
+          location: "Pune, INDIA",
           description:
             "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
           color: "#000000",
@@ -449,12 +450,13 @@ const experience = {
     {
       title: "Internships",
       experiences: [
+        
         {
           title: "Full Stack Developer",
           company: "SevenMentor Pvt Ltd.",
           // company_url: "https://www.tiktok.com/en/",
           logo_path: "seven.webp",
-          duration: "Aug 2024 - March 2025",
+          duration: "March 2024 - Aug 2024",
           location: "Pune, INDIA",
           description:
             "Developed an online education platform using Java Spring Boot for the backend, MySQL for database management, and React for the frontend, enabling users to purchase and access various courses. Integrated APIs for seamless data communication between the frontend and backend.",
@@ -465,7 +467,7 @@ const experience = {
           company: "Medimaze Solutions Pvt Ltd.",
           //company_url: "https://www.tiktok.com/en/",
           logo_path: "medimaze.jpg",
-          duration: "Aug 2023 - Feb 2024",
+          duration: "Aug 2023 - Jan 2024",
           location: "Pune, INDIA",
           description:
             "I developed a fundraising platform using React for the frontend, ensuring responsive UI and smooth user experience. I collaborated with the backend team, integrating Python APIs and MySQL databases to manage data flow and user interactions. My role included designing UI components, binding APIs, and optimizing performance.",
