@@ -442,7 +442,7 @@ const experience = {
           duration: "Nov 2024 - Present",
           location: "Pune, INDIA",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "I developed scalable RESTful APIs using .NET Core, C#, and MVC, optimized SQL queries for efficient CRUD operations, and collaborated with frontend teams to ensure seamless data flow and improved application performance.",
           color: "#000000",
         },
       ], //
