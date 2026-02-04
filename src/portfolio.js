@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1pHKk-yrO2oFpohpAlcoB1fo-X9PXCwXy/view?usp=sharing",
+    "https://drive.google.com/file/d/1Zboca4ZmZPuFvrJULZY8kae3MGDyRa4o/view?usp=drive_link",
   portfolio_repository: "https://ashucodes.netlify.app/",
   githubProfile: "https://github.com/iashu5",
 };
@@ -136,7 +136,7 @@ const skills = {
       ],
     },
     {
-      title: "Java FullStack Developer",
+      title: "Java Developer",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -215,74 +215,72 @@ const skills = {
        
       ],
     },
-    // {
-    //   title: "Tools Used",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
-    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "GCP",
-    //       fontAwesomeClassname: "simple-icons:googlecloud",
-    //       style: {
-    //         color: "#4285F4",
-    //       },
-    //     },
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Azure",
-    //       fontAwesomeClassname: "simple-icons:microsoftazure",
-    //       style: {
-    //         color: "#0089D6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Kubernetes",
-    //       fontAwesomeClassname: "simple-icons:kubernetes",
-    //       style: {
-    //         color: "#326CE5",
-    //       },
-    //     },
-    // ],
-    // },
+    {
+      title: ".Net Developer",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developed RESTful APIs using .NET Core, C#, and ASP.NET MVC",
+        "⚡ Built scalable backend logic and improved application performance",
+        "⚡ Designed and optimized SQL Server queries for efficient data operations",
+        "⚡ Integrated front-end and back-end systems ensuring smooth client–server communication",
+      ],
+      softwareSkills: [
+         {
+          skillName: "C Sharp",
+          fontAwesomeClassname: "skill-icons:cs",
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: ".Net Core",
+          fontAwesomeClassname: "skill-icons:dotnet",
+          style: {
+            color: "#FFCA28",
+          },
+        },
+         {
+          skillName: "Sql",
+          fontAwesomeClassname: "skill-icons:sqlite",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Visual Studio",
+          fontAwesomeClassname: "skill-icons:visualstudio-light",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "sourcetree",
+          fontAwesomeClassname: "simple-icons:sourcetree",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        
+        
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "skill-icons:postman",
+          style: {
+            color: "#336791",
+          },
+        },
+       
+       
+        
+    ],
+    },
     // {
     //   title: "UI/UX Design",
     //   fileName: "DesignImg",
@@ -494,7 +492,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "ashuu.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Spring, React, Mysql.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
   blogSection: {
     
