@@ -24,7 +24,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1Zboca4ZmZPuFvrJULZY8kae3MGDyRa4o/view?usp=drive_link",
+    "https://drive.google.com/file/d/1tAiizGJV9JnxWzhn9kS1awHH69euLAsz/view?usp=sharing",
   portfolio_repository: "https://ashucodes.netlify.app/",
   githubProfile: "https://github.com/iashu5",
 };
@@ -431,13 +431,23 @@ const experience = {
       title: "Work",
       work: true,
       experiences: [
-        
+        {
+          title: "Software Developer",
+          company: "Gtech WebSolutions Pvt.Ltd.",
+          // company_url: "",
+          logo_path: "Gtech_logo_circle.png",
+          duration: "May 2026 - Sept 2026",
+          location: "Kolkata, INDIA",
+          description:
+            "Working on a finance-domain application, developing .NET Core and MVC modules and integrating services such as DigiLocker, Aadhaar verification, webcam-based KYC, and CIBIL credit checks. Implemented RESTful APIs, database operations, and workflow-based processes for loan-related modules.",
+          color: "#000000",
+        },
          {
           title: ".Net Developer",
-          company: "YSAAS Infotech Pvt Ltd..",
+          company: "YSAAS Infotech Pvt.Ltd.",
           // company_url: "",
           logo_path: "NoImg.jpg",
-          duration: "Nov 2024 - Present",
+          duration: "Nov 2024 - April 2026",
           location: "Pune, INDIA",
           description:
             "I developed scalable RESTful APIs using .NET Core, C#, and MVC, optimized SQL queries for efficient CRUD operations, and collaborated with frontend teams to ensure seamless data flow and improved application performance.",
@@ -490,7 +500,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "ashuu.png",
+    profile_image_path: "circular_photo.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
